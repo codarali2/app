@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 212));
+    width: 100%;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+
+header li b {
+    width: 150px;
+    height: 90px;
+    float: left;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+b {
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    line-height: 90px;
+    width: 250px;
+}
+
+#b_Hacker{
+    width: 150px;
+    height: 85px;
+    transition: 1s background-image , 1s width , 1s height ,1s;
+}
+
+#b_Hacker:hover{
+    width: 150px;
+    height: 90px;
+    opacity: 1;
+    background-image: url(Hacking.jpg);
+    color: yellow;
+}
+
+#Technique{
+    width: 150px;
+    height: 85px;
+    transition: 1s background-image , 1s width , 1s height ,1s;
+}
+
+#Technique:hover{
+    width: 150px;
+    height: 90px;
+    opacity: 1;
+    background-image: url(Technique.jpg);
+    color: yellow;
+}
+
+#Computer_Problems{
+    width: 150px;
+    height: 85px;
+    transition: 1s background-image , 1s width , 1s height ,1s;
+}
+
+
+#Computer_Problems:hover{
+    width: 150px;
+    height: 90px;
+    opacity: 1;
+    background-image: url(Computer_Problems.jpg);
+    color: yellow;
+}
+
+#General_news{
+    width: 150px;
+    height: 85px;
+    transition: 1s background-image , 1s width , 1s height ,1s;
+}  
+#General_news:hover{
+    width: 150px;
+    height: 90px;
+    opacity: 1;
+    background-image: url(klshe.jpg);
+    color: yellow;
+}
+#Home_Bage{
+    width: 150px;
+    height: 85px;
+    transition: 1s background-image , 1s width , 1s height ,1s;
+}  
+#Home_Bage:hover{
+    width: 150px;
+    height: 90px;
+    opacity: 1;
+    background-image: url(Home_Bage.jpg);
+    color: yellow;
+    font-size: 20px;
+}
+
+pre{
+    color: rgb(217, 255, 5);
+    font-size: 20px;
+    text-align: right;
+}
+pre:hover{
+    color: rgb(0, 250, 0);
+}
+legend{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+legend:hover{
+    color: rgb(0, 255, 64);
+}
+fieldset{
+    border-color: rgb(9, 255, 0);
+    border-width: 4px;
+    border-style: groove;
+    border-radius: 200px 1px 50px 200px;
+}
+fieldset:hover{
+    animation: fieldset 1s infinite;
+}
+@keyframes fieldset{
+    0%{
+        border-color: rgb(255, 0, 0);
+    }
+    25%{
+        border-color: rgb(3, 217, 255);
+    }
+    50%{
+        border-color: rgb(48, 2, 255);
+    }
+    75%{
+        border-color: rgb(255, 0, 234);
+    }
+    100%{
+        border-color: rgb(251, 255, 0);
+    }
+}
+video{
+    position: relative;
+    left: 480px;
+}

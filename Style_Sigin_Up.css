@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left , red , rgb(89, 0, 255));
+}
+::placeholder{
+font-size: 20px ;
+color:  rgb(217, 255, 0);
+font-style: italic font-size ,2s;
+transition:2s ;
+}
+
+#Text_E{
+    font-style: italic;
+    font-size: 25px;
+}
+#Email{
+    width: 300px;
+    height: 25px;
+    background-image: linear-gradient( to right ,red , blue);
+    border-radius: 40px;
+    border-color: red ;
+    transition: 2s background-image  ,1.5s width ,1.5s height , 1.5s;
+    text-align: center;
+    font-size: 25px;
+}
+#Email:hover{
+    background-image: linear-gradient(to left , rgb(0, 225, 255) , rgb(255, 0, 200));
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    border-color: red;
+    color: blue;
+}
+#Email:focus{
+    background-image: linear-gradient( to right ,red , blue);
+    border-radius: 40px;
+    border-color: red ;
+    background-image: linear-gradient(to left , rgb(0, 225, 255) , rgb(255, 0, 200));
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    border-color: red;
+    color: blue;
+}
+#Text_P{ 
+    font-style: italic;
+    font-size: 25px;
+}
+
+#Password{
+    width: 300px;
+    height: 25px;
+    background-image: linear-gradient( to right ,red , blue);
+    border-radius: 40px;
+    border-color: red ;
+    transition: 2s background-image  ,1.5s width ,1.5s height , 1.5s;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Password:hover{
+    background-image: linear-gradient(to left , rgb(0, 225, 255) , rgb(255, 0, 200));
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    border-color: red;
+    color: blue;
+}
+
+#Password:focus{
+    background-image: linear-gradient(to left , rgb(0, 225, 255) , rgb(255, 0, 200));
+    width: 350px;
+    height: 35px;
+    border-radius: 50px;
+    border-color: red;
+    color: blue;
+}
+
+#Button{
+    background-image: linear-gradient(to left , rgb(0, 204, 255) , red);
+    color: rgb(217, 255, 0);
+    border-radius: 50px;
+    animation: Button2 1s infinite;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#Style_Home_Bage_Button{
+    background-image: linear-gradient( to right, rgb(0, 204, 255) , red);
+    border-radius: 3px;
+    animation: Button 1s infinite;
+    font-size: 20px;
+}
+
+#Home_Bage{
+    color: blue; 
+    text-decoration: none;
+}
+
+#Image{
+    position: relative;
+    top: 180px;
+    left: 80%;
+    width: 250px;
+    height: 250px;
+    transition: 6s right , 7s top , 7s ;
+}
+
+#Image:hover{
+    left: 0%;
+    top: 40px;
+}
+
+
+@keyframes Button{
+    0%{
+        background-image: linear-gradient(to left , rgb(0, 225, 255) , rgb(255, 0, 200));
+    }
+    25%{
+        background-image: linear-gradient(to top , rgb(0, 225, 255) , rgb(255, 0, 200));
+    }
+    50%{
+        background-image: linear-gradient(to right , rgb(0, 225, 255) , rgb(255, 0, 200));
+    }
+    75%{
+        background-image: linear-gradient(to bottom , rgb(0, 225, 255) , rgb(255, 0, 200));
+    }
+    100%{
+        background-image: linear-gradient(to left , rgb(0, 225, 255) , rgb(255, 0, 200));
+    }
+}
+
+@keyframes Button2{
+    0%{
+        background-image: linear-gradient(to right , rgb(0, 204, 255) , rgb(247, 0, 194) ,red);
+    }
+    25%{
+        background-image: linear-gradient(to top , rgb(0, 204, 255) , rgb(247, 0, 194) ,red);
+    }
+    50%{
+        background-image: linear-gradient(to left , rgb(0, 204, 255) , rgb(247, 0, 194) ,red);
+    }
+    75%{
+        background-image: linear-gradient(to bottom , rgb(0, 204, 255) , rgb(247, 0, 194) ,red);
+    }
+    100%{
+        background-image: linear-gradient(to right , rgb(0, 204, 255) , rgb(247, 0, 194) ,red);
+    }
+}
