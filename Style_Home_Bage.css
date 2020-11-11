@@ -149,3 +149,28 @@ li {
         color: yellow;
     }
 }
+
+#welcome{
+    color:rgb(9, 255, 0);
+    font-style: oblique;
+    text-shadow: 20px;
+    position: relative;
+    top: 350px;
+    left: 520px;
+    font-size: 13px;
+    transition: 1s font-size , 2s color , 2s;
+    text-decoration: none;
+    margin: 0px;
+    
+}
+#welcome:hover{
+    font-size: 20px;
+    color: red;
+    position: relative;
+    top: 350px;
+    left: 500px;
+}
+#pre_welcome{
+    width: 0%;
+    height: 0px;
+}
